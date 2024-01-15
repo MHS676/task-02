@@ -117,19 +117,18 @@ nav li a {
     rgba(192, 204, 218, 0.1) 100%
   );
   border-image-slice: 1;
-}
-.company-logo-img {
-  margin-left: 100px;
-}
-.logo {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  align-items: center;
+  gap: 85px;
 }
 
-/* main section */
-
-/* company section */
+.logo1 {
+  display: flex;
+  gap: 85px;
+  margin-left: 85px;
+}
+.logo2 {
+  display: flex;
+  gap: 85px;
+}
 
 /* card section */
 
@@ -278,5 +277,44 @@ nav li a {
     margin-left: 25px;
     width: 202px;
     height: 190px;
+  }
+  .company-logo {
+    margin: 0;
+    display: grid;
+    flex-direction: column;
+    border: none;
+  }
+  .logo1 {
+    padding: 0px;
+    gap: 20px;
+    align-items: center;
+    margin: 0;
+    width: 0;
+    height: 0;
+  }
+  .logo2 {
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0 20px;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .card {
+    padding: 10px 0px;
+    align-items: center;
+  }
+
+  .card h1 {
+    padding-left: 50px;
+  }
+
+  .card-container-row {
+    align-items: center;
+    margin: 0;
+    padding-left: 55px;
+    padding-right: 0;
+    flex-direction: column;
   }
 }
